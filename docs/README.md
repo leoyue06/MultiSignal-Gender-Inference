@@ -15,21 +15,33 @@ These signals are combined through a contextual weighting system and transformed
 ## Repository Structure
 
 ```
-/docs
-    PRD.pdf
-    Architecture Diagram.png
-    Safety_Ethics_Considerations.pdf
-    README.md
+/
+├── docs/
+│   ├── Architecture Diagram.png
+│   ├── PRD.pdf
+│   ├── Safety_Ethics_Considerations.pdf
+│   └── README.md               # PRD README, not root README
 
-/prototype
-    inference.py
-    signals.py
-    weights.py
-    demo.ipynb
+├── examples/
+│   ├── names_db.csv            # Name → gender probability lookup
+│   ├── sports_db.csv           # Simple sample mapping for sports metadata
+│   ├── test_1.jpg              # Demo photos for vision testing
+│   ├── test_2.jpg
+│   ├── test_3.jpg
+│   ├── test_4.jpg
+│   ├── test_5.jpg
+│   └── test_6.jpg
 
-/examples
-    names_sample.csv
-    dummy_image.jpg
+├── prototype/
+│   ├── demo.ipynb              # End-to-end demo notebook
+│   ├── inference.py            # Core inference pipeline (weights + signals)
+│   ├── signals.py              # Extracts name, sport, and photo signals
+│   └── weights.py              # Weighting logic + contextual adjustments
+
+├── Dockerfile                  # Optional Jupyter-based environment
+├── requirements.txt            # Python dependencies
+└── .gitignore
+
 ```
 
 ## Summary
