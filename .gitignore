@@ -1,0 +1,18 @@
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Environment variables
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Docker build artifacts
+*.tar
+*.img

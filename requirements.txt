@@ -1,0 +1,10 @@
+openai
+pillow
+numpy<2
+pandas
+matplotlib
+jupyter
+scikit-image
+ipython
+python-dotenv
+jupyter
