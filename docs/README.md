@@ -44,6 +44,14 @@ These signals are combined through a contextual weighting system and transformed
 
 ```
 
+## Demo Video
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=Zj2SYKlAn6o">
+    <img src="https://img.youtube.com/vi/Zj2SYKlAn6o/0.jpg" width="600">
+  </a>
+</div>
+
 ## Summary
 
 This is a 2–3 day interview-level project showing production-style thinking:
@@ -52,4 +60,4 @@ This is a 2–3 day interview-level project showing production-style thinking:
 - modular architecture  
 - weighted multi-signal combination  
 - real attribution & interpretability  
-- prototype that runs end‑to‑end  
+- prototype that runs end‑to‑end
